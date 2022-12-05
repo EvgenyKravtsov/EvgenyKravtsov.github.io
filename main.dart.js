@@ -7855,7 +7855,7 @@ OZ:function OZ(){},
 aad(){var s=0,r=A.a0(t.Rt),q,p
 var $async$aad=A.a1(function(a,b){if(a===1)return A.Y(b,r)
 while(true)switch(s){case 0:s=3
-return A.X(A.AL(A.hz("http://localhost:8000",0,null)),$async$aad)
+return A.X(A.AL(A.hz("https://badminbro.herokuapp.com/",0,null)),$async$aad)
 case 3:p=b
 if(p.b===200){q=J.ds(B.aa.kg(0,A.AJ(A.Az(p.e).c.a.h(0,"charset")).cg(0,p.w),null),new A.aae(),t.Uo).bS(0)
 s=1
@@ -7865,7 +7865,7 @@ return A.a_($async$aad,r)},
 aab(){var s=0,r=A.a0(t.Y9),q,p
 var $async$aab=A.a1(function(a,b){if(a===1)return A.Y(b,r)
 while(true)switch(s){case 0:s=3
-return A.X(A.AL(A.hz("http://localhost:8000/get_live_game",0,null)),$async$aab)
+return A.X(A.AL(A.hz("https://badminbro.herokuapp.com//get_live_game",0,null)),$async$aab)
 case 3:p=b
 if(p.b===200){q=A.aqQ(B.aa.kg(0,A.AJ(A.Az(p.e).c.a.h(0,"charset")).cg(0,p.w),null))
 s=1
@@ -7875,7 +7875,7 @@ return A.a_($async$aab,r)},
 a9U(a){var s=0,r=A.a0(t.Rt),q,p
 var $async$a9U=A.a1(function(b,c){if(b===1)return A.Y(c,r)
 while(true)switch(s){case 0:s=3
-return A.X(A.AL(A.hz("http://localhost:8000/add_player_to_live_game",0,null).tS(0,A.az(["player_name",a],t.N,t.z))),$async$a9U)
+return A.X(A.AL(A.hz("https://badminbro.herokuapp.com//add_player_to_live_game",0,null).tS(0,A.az(["player_name",a],t.N,t.z))),$async$a9U)
 case 3:p=c
 if(p.b===200){q=J.ds(B.aa.kg(0,A.AJ(A.Az(p.e).c.a.h(0,"charset")).cg(0,p.w),null),new A.a9V(),t.Uo).bS(0)
 s=1
@@ -7885,7 +7885,7 @@ return A.a_($async$a9U,r)},
 aaH(a){var s=0,r=A.a0(t.Rt),q,p
 var $async$aaH=A.a1(function(b,c){if(b===1)return A.Y(c,r)
 while(true)switch(s){case 0:s=3
-return A.X(A.AL(A.hz("http://localhost:8000/remove_player_from_live_game",0,null).tS(0,A.az(["player_name",a],t.N,t.z))),$async$aaH)
+return A.X(A.AL(A.hz("https://badminbro.herokuapp.com//remove_player_from_live_game",0,null).tS(0,A.az(["player_name",a],t.N,t.z))),$async$aaH)
 case 3:p=c
 if(p.b===200){q=J.ds(B.aa.kg(0,A.AJ(A.Az(p.e).c.a.h(0,"charset")).cg(0,p.w),null),new A.aaI(),t.Uo).bS(0)
 s=1
@@ -7895,7 +7895,7 @@ return A.a_($async$aaH,r)},
 aaN(){var s=0,r=A.a0(t.QG),q,p
 var $async$aaN=A.a1(function(a,b){if(a===1)return A.Y(b,r)
 while(true)switch(s){case 0:s=3
-return A.X(A.AL(A.hz("http://localhost:8000/start_live_game",0,null)),$async$aaN)
+return A.X(A.AL(A.hz("https://badminbro.herokuapp.com//start_live_game",0,null)),$async$aaN)
 case 3:p=b
 if(p.b===200){q=A.asR(B.aa.kg(0,A.AJ(A.Az(p.e).c.a.h(0,"charset")).cg(0,p.w),null))
 s=1
@@ -7906,7 +7906,7 @@ aac(a){var s=0,r=A.a0(t.Cz),q,p,o
 var $async$aac=A.a1(function(b,c){if(b===1)return A.Y(c,r)
 while(true)switch(s){case 0:p=a===B.dj?0:1
 s=3
-return A.X(A.AL(A.hz("http://localhost:8000/get_players_for_next_match",0,null).tS(0,A.az(["winning_team",B.i.i(p)],t.N,t.z))),$async$aac)
+return A.X(A.AL(A.hz("https://badminbro.herokuapp.com//get_players_for_next_match",0,null).tS(0,A.az(["winning_team",B.i.i(p)],t.N,t.z))),$async$aac)
 case 3:o=c
 if(o.b===200){q=A.aqR(B.aa.kg(0,A.AJ(A.Az(o.e).c.a.h(0,"charset")).cg(0,o.w),null))
 s=1
